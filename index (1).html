@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website | Home</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #35424a; color: #fff; padding: 20px 0; border-bottom: #e8491d 3px solid; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        nav { float: right; margin-top: 10px; }
+        nav a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; margin-left: 20px; }
+        nav a:hover, nav a.active { color: #e8491d; font-weight: bold; }
+        .showcase { min-height: 400px; background: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?w=1200') no-repeat center center/cover; text-align: center; color: #fff; }
+        .showcase h1 { margin-top: 100px; font-size: 55px; margin-bottom: 10px; text-shadow: 2px 2px 4px #000; }
+        .showcase p { font-size: 20px; text-shadow: 2px 2px 4px #000; }
+        .main-col { float: left; width: 70%; background: #fff; padding: 20px; box-sizing: border-box; margin-top: 20px; border-radius: 5px; }
+        sidebar { float: right; width: 25%; background: #35424a; color: #fff; padding: 20px; box-sizing: border-box; margin-top: 20px; border-radius: 5px; }
+        footer { padding: 20px; margin-top: 20px; color: #fff; background-color: #e8491d; text-align: center; clear: both; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1 style="margin:0; float:left;">Modern Web</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>Professional, clean, and modern 5-page web platform setup.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="main-col">
+            <h2>Main Features</h2>
+            <p>This is a complete static multi-page website built with semantic HTML5 and clean CSS structure. Feel free to customize the text and style to fit your personal or business goals.</p>
+            <p>Navigate through the tabs above to explore the full layout across all 5 interconnected files.</p>
+        </section>
+        <sidebar>
+            <h3>Quick Links</h3>
+            <p>Need support? Head over to our contact page to drop a line or find our location layout.</p>
+        </sidebar>
+    </div>
+
+    <footer>
+        <p>Modern Web Design, Copyright &copy; 2026</p>
+    </footer>
+</body>
+</html>
